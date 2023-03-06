@@ -1,0 +1,20 @@
+:root {
+    --romindo-orange: #E9642D;
+    --romindo-yellow: #F1B519;
+}
+
+.navbar-bg {
+    background-color: var(--romindo-orange);
+}
+
+.main-sidebar .sidebar-menu li.active a {
+    color: var(--romindo-orange);
+}
+
+.main-sidebar .sidebar-menu li ul.dropdown-menu li a:hover {
+    color: var(--romindo-orange);
+}
+
+body.sidebar-mini .main-sidebar .sidebar-menu > li.active > a {
+    background-color: var(--romindo-orange);
+}
