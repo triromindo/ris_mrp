@@ -3,7 +3,7 @@
         <button type="button" class="bs-canvas-close float-right close" aria-label="Close"><span aria-hidden="true"
                 class="text-white">&times;</span></button>
         <h4 class="d-inline-block text-white mb-0 float-left">
-            Tambah Data</h4>
+            Edit Data</h4>
     </header>
     <div class="bs-canvas-content p-3">
         <form id="form-add-new" class="needs-validation" novalidate="" onsubmit="return false">
@@ -115,12 +115,21 @@
                     </div>
                 </div>
 
-                <div class="row float-right">
+                {{-- <div class="row float-right">
                     <div class="form-group mt-5">
                         <button class="btn btn-secondary bs-canvas-close mr-3">Cancel</button>
-                        <button class="btn btn-romindo" onclick="funcBtnSave()">Submit</button>
-                    </div>
+                        <button class="btn btn-romindo" onclick="funcBtnSave()">Update</button>
+                    </div> --}}
+                <div class="form-group mt-4">
+                    <button class="btn btn-romindo float-right ml-3 rounded-pill" onclick="funcBtnUpdate()"><i
+                            class="fas fa-edit"></i>&nbsp; Update</button>
+                    <button class="btn btn-secondary float-right bs-canvas-close rounded-pill"><i
+                            class="fas fa-ban"></i>&nbsp;
+                        Cancel</button>
+                    <button class="btn btn-danger float-left rounded-pill" onclick="funcBtnDelete()"><i
+                            class="fas fa-trash-alt"></i>&nbsp; Delete</button>
                 </div>
+                {{-- </div> --}}
             </div>
 
         </form>

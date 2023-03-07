@@ -28,7 +28,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    <table class="table table-striped table-main">
+                                    <table class="table table-striped table-main table-hover">
                                         <thead>
                                             <tr>
                                                 <th>ACC Code</th>
@@ -39,9 +39,9 @@
                                             </tr>
                                         </thead>
 
-                                         {{-- set url value to get data --}}
-                                         <input type="hidden" class="dataName" value="rawMaterial" />
-                                         {{-- set url value to get data --}}
+                                        {{-- set url value to get data --}}
+                                        <input type="hidden" class="dataName" value="rawMaterial" />
+                                        {{-- set url value to get data --}}
 
                                         <tbody>
                                             <tr role="row" class="odd" onclick="funcEditForm('raw-material')">

@@ -118,7 +118,7 @@
                 <div class="row float-right">
                     <div class="form-group mt-5">
                         <button class="btn btn-secondary bs-canvas-close mr-3">Cancel</button>
-                        <button class="btn btn-romindo" onclick="funcBtnSave()">Submit</button>
+                        <button class="btn btn-romindo" onclick="funcBtnSave()">Simpan</button>
                     </div>
                 </div>
             </div>

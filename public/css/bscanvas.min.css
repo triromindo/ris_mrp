@@ -4,7 +4,7 @@
 }
 
 .bs-canvas-overlay.show {
-    opacity: .85;
+    opacity: 0.85;
     z-index: 900;
     pointer-events: none;
 }
@@ -14,22 +14,22 @@
     z-index: 1110;
     overflow-x: hidden;
     overflow-y: auto;
-    width: 800px;
+    width: 900px;
     max-width: calc(100%);
-    transition: margin .4s ease-out;
-    -webkit-transition: margin .4s ease-out;
-    -moz-transition: margin .4s ease-out;
-    -ms-transition: margin .4s ease-out;
+    transition: margin 0.4s ease-out;
+    -webkit-transition: margin 0.4s ease-out;
+    -moz-transition: margin 0.4s ease-out;
+    -ms-transition: margin 0.4s ease-out;
 }
 
 .bs-canvas-left {
     left: 0;
-    margin-left: -800px;
+    margin-left: -900px;
 }
 
 .bs-canvas-right {
     right: 0;
-    margin-right: -800px;
+    margin-right: -900px;
 }
 
 /* custom */
