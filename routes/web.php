@@ -15,3 +15,19 @@ Route::get('dashboard', function () {
 Route::get('raw-material', function () {
     return view('mst.raw_material.index');
 });
+
+Route::get('finish-product', function () {
+    return view('mst.finish_product.index');
+});
+
+Route::get('supplier', function () {
+    return view('mst.supplier.index');
+});
+
+Route::get('supplier-other', function () {
+    return view('mst.supplier_other.index');
+});
+
+Route::get('atk', function () {
+    return view('mst.atk.index');
+});
