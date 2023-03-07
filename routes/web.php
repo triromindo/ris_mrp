@@ -31,3 +31,11 @@ Route::get('supplier-other', function () {
 Route::get('atk', function () {
     return view('mst.atk.index');
 });
+
+Route::get('kelompok-produk-raw-mat', function () {
+    return view('mst.kel_raw.index');
+});
+
+Route::get('std-man-h', function () {
+    return view('mst.std_man_h.index');
+});
