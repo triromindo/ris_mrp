@@ -1,20 +1,68 @@
 :root {
-    --romindo-orange: #E9642D;
-    --romindo-yellow: #F1B519;
+    --romindo-primary: #ED8D23;
+    --romindo-secondary: #E8632C;
+    --romindo-tertiary: #F1B619;
 }
 
 .navbar-bg {
-    background-color: var(--romindo-orange);
+    background-color: var(--romindo-primary);
 }
 
 .main-sidebar .sidebar-menu li.active a {
-    color: var(--romindo-orange);
+    color: var(--romindo-secondary);
 }
 
 .main-sidebar .sidebar-menu li ul.dropdown-menu li a:hover {
-    color: var(--romindo-orange);
+    color: var(--romindo-secondary);
 }
 
-body.sidebar-mini .main-sidebar .sidebar-menu > li.active > a {
-    background-color: var(--romindo-orange);
+body.sidebar-mini .main-sidebar .sidebar-menu>li.active>a {
+    background-color: var(--romindo-primary);
+}
+
+a {
+    color: var(--romindo-primary);
+}
+
+a:hover {
+    color: var(--romindo-secondary);
+}
+
+body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu>li.active>a::before {
+    background-color: var(--romindo-primary);
+}
+
+.btn-romindo,
+.btn-romindo.disabled {
+    box-shadow: 0 2px 6px var(--romindo-secondary);
+    background-color: var(--romindo-primary);
+    border-color: var(--romindo-primary);
+    color: #fff;
+}
+
+.btn-romindo:active,
+.btn-romindo:hover,
+.btn-romindo:focus,
+.btn-romindo.disabled:active,
+.btn-romindo.disabled:hover {
+    background-color: var(--romindo-secondary) !important;
+    color: #fff;
+}
+
+.page-item.active .page-link {
+    background-color: var(--romindo-primary);
+    border-color: var(--romindo-primary);
+}
+
+.page-item .page-link {
+    color: var(--romindo-secondary);
+}
+
+.page-item.disabled .page-link {
+    color: var(--romindo-secondary);
+}
+
+.page-link:hover {
+    background-color: var(--romindo-primary);
+    color: #fff;
 }
