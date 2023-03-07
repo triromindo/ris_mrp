@@ -21,6 +21,7 @@
     {{-- Template CSS --}}
     <link rel="stylesheet" href="{{ asset('css/style.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/components.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bscanvas.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/custom.min.css') }}">
 </head>
 
@@ -64,6 +65,7 @@
 
     {{-- Template JS File --}}
     <script src="{{ asset('js/scripts.min.js') }}"></script>
+    <script src="{{ asset('js/bscanvas.min.js') }}"></script>
     <script src="{{ asset('js/custom.min.js') }}"></script>
 </body>
 

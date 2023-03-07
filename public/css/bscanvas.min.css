@@ -1,0 +1,62 @@
+.bs-canvas-overlay {
+    opacity: 0;
+    z-index: -1;
+}
+
+.bs-canvas-overlay.show {
+    opacity: .85;
+    z-index: 900;
+    pointer-events: none;
+}
+
+.bs-canvas {
+    top: 0;
+    z-index: 1110;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 800px;
+    max-width: calc(100%);
+    transition: margin .4s ease-out;
+    -webkit-transition: margin .4s ease-out;
+    -moz-transition: margin .4s ease-out;
+    -ms-transition: margin .4s ease-out;
+}
+
+.bs-canvas-left {
+    left: 0;
+    margin-left: -800px;
+}
+
+.bs-canvas-right {
+    right: 0;
+    margin-right: -800px;
+}
+
+/* custom */
+.bs-canvas-header {
+    height: 70px;
+}
+
+.bs-canvas-content {
+    background-color: white;
+}
+
+/* datatable */
+/* table.dataTable>tbody>tr {
+    cursor: pointer;
+} */
+
+/* validation error */
+/* .custom-select.is-invalid,
+.form-control.is-invalid {
+    border-color: #dc3545 !important;
+}
+
+.modal {
+    z-index: 1250;
+}
+
+.modal-open {
+    opacity: .85;
+    z-index: 900;
+} */

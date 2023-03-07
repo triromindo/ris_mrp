@@ -21,10 +21,9 @@
                             <div class="card-header">
                                 <h4></h4>
                                 <div class="card-header-action">
-                                    <a href="#" class="btn btn-romindo">
-                                        <i class="fas fa-plus mr-2"></i>
-                                        Add Data
-                                    </a>
+                                    <button class="btn btn-romindo pull-bs-canvas-right" type="button"
+                                        data-target="#create-mstRawMaterial"> <i class="fas fa-plus mr-2"></i>
+                                        <span class="d-sm-inline-block"> Tambahkan Data </span> </button>
                                 </div>
                             </div>
                             <div class="card-body">
@@ -39,8 +38,13 @@
                                                 <th>STOCK LEVEL</th>
                                             </tr>
                                         </thead>
+
+                                         {{-- set url value to get data --}}
+                                         <input type="hidden" class="dataName" value="rawMaterial" />
+                                         {{-- set url value to get data --}}
+
                                         <tbody>
-                                            <tr role="row" class="odd">
+                                            <tr role="row" class="odd" onclick="funcEditForm('raw-material')">
                                                 <td>112013</td>
                                                 <td class="hidden-480">A-207</td>
                                                 <td data-placement="top" data-rel="popover" data-original-title=""

@@ -15,7 +15,7 @@
             <li class="dropdown {{ Request::path() == 'raw-material' ? 'active' : '' }}">
                 <a href="#" class="nav-link has-dropdown"><i class="fas fa-book"></i><span>Master</span></a>
                 <ul class="dropdown-menu">
-                    <li><a class="nav-link" href="{{ url('raw-material') }}">Raw Material</a></li>
+                    <li class="{{ Request::path() == 'raw-material' ? 'active' : '' }}"><a class="nav-link" href="{{ url('raw-material') }}">Raw Material</a></li>
                     <li><a class="nav-link" href="index.html">Finish Product</a></li>
                 </ul>
             </li>
