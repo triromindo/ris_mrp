@@ -61,9 +61,9 @@
                 </div>
             </div>
             <div class="card-footer text-right">
-                <a class="btn btn-light mr-3" href="{{ url('supplier') }}">
+                <button class="btn btn-light mr-3 bs-canvas-close">
                     <i class="fas fa-ban"></i> Batal
-                </a>
+                </button>
                 <button class="btn btn-warning" data-action="supplier" onclick="funcBtnSave(this)">
                     <i class="fas fa-save"> </i> Simpan
                 </button>

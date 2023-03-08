@@ -39,3 +39,7 @@ Route::get('kelompok-produk-raw-mat', function () {
 Route::get('std-man-h', function () {
     return view('mst.std_man_h.index');
 });
+
+Route::get('rate', function () {
+    return view('mst.rate.index');
+});

@@ -20,10 +20,21 @@
                         <div class="card">
                             <div class="card-header">
                                 <h4></h4>
-                                <div class="card-header-action">
+                                {{-- <div class="card-header-action">
                                     <button class="btn btn-romindo pull-bs-canvas-right" type="button"
                                         data-target="#create-mstRawMaterial"> <i class="fas fa-plus mr-2"></i>
                                         <span class="d-sm-inline-block"> Tambahkan Data </span> </button>
+                                </div> --}}
+                                <div class="row ml-auto">
+                                    <div class="col-12">
+                                        <button class="btn btn-romindo pull-bs-canvas-right" type="button"
+                                            data-target="#create-mstRawMaterial">
+                                            <i class="fas fa-plus mr-2"></i>Tambahkan Data
+                                        </button>
+                                        <a class="btn btn-outline-success float-right rounded-pill ml-3"><i
+                                                class="fas fa-save"></i> Get Std Cost
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                             <div class="card-body">
