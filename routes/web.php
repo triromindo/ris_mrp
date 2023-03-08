@@ -43,3 +43,7 @@ Route::get('std-man-h', function () {
 Route::get('rate', function () {
     return view('mst.rate.index');
 });
+
+Route::get('group-production', function () {
+    return view('mst.group_production.index');
+});
