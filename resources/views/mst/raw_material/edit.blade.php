@@ -11,49 +11,49 @@
                 <div class="row">
                     <div class="col-md-6 col-12">
                         <div class="form-group">
-                            <label>ACC Code</label>
+                            <label>ACC CODE</label>
                             <input type="text" class="form-control" required="">
                             <div class="invalid-feedback">
                                 Please fill
                             </div>
                         </div>
                         <div class="form-group">
-                            <label>Factory Code</label>
+                            <label>FACTORY CODE</label>
                             <input type="text" class="form-control" required="">
                             <div class="invalid-feedback">
                                 Please fill
                             </div>
                         </div>
                         <div class="form-group">
-                            <label>Description</label>
+                            <label>DESCRIPTION</label>
                             <input type="text" class="form-control" required="">
                             <div class="invalid-feedback">
                                 Please fill
                             </div>
                         </div>
                         <div class="form-group">
-                            <label>Unit</label>
+                            <label>UNIT</label>
                             <input type="text" class="form-control" required="">
                             <div class="invalid-feedback">
                                 Please fill
                             </div>
                         </div>
                         <div class="form-group">
-                            <label>Description</label>
+                            <label>STOCK LEVEL</label>
                             <textarea class="form-control"></textarea>
                             <div class="invalid-feedback">
                                 Stock Level
                             </div>
                         </div>
                         <div class="form-group">
-                            <label>Unit</label>
+                            <label>MINIMUM ORDER</label>
                             <input type="text" class="form-control" required="">
                             <div class="invalid-feedback">
                                 Min Order
                             </div>
                         </div>
                         <div class="form-group">
-                            <label>Unit</label>
+                            <label>% LOSS</label>
                             <input type="text" class="form-control" required="">
                             <div class="invalid-feedback">
                                 % Loss
@@ -63,49 +63,49 @@
                     </div>
                     <div class="col-md-6 col-12">
                         <div class="form-group">
-                            <label>Std Cost Price (Rp)</label>
+                            <label>STD COST PRICE (Rp)</label>
                             <input type="text" class="form-control" required="">
                             <div class="invalid-feedback">
                                 Please fill
                             </div>
                         </div>
                         <div class="form-group">
-                            <label>Std Cost Price Y+1 (Rp)</label>
+                            <label>STD COST PROCE Y+1 (Rp)</label>
                             <input type="text" class="form-control" required="">
                             <div class="invalid-feedback">
                                 Please fill
                             </div>
                         </div>
                         <div class="form-group">
-                            <label>Std Cost Price ($)</label>
+                            <label>STD COST PRICE ($)</label>
                             <input type="text" class="form-control" required="">
                             <div class="invalid-feedback">
                                 Please fill
                             </div>
                         </div>
                         <div class="form-group">
-                            <label>Std Cost Price Y+1 ($)</label>
+                            <label>STD COST PRICE Y+1 ($)</label>
                             <input type="text" class="form-control" required="">
                             <div class="invalid-feedback">
                                 Please fill
                             </div>
                         </div>
                         <div class="form-group">
-                            <label>Group</label>
+                            <label>GROUP</label>
                             <input type="text" class="form-control" required="">
                             <div class="invalid-feedback">
                                 Please fill
                             </div>
                         </div>
                         <div class="form-group">
-                            <label>Group Product</label>
+                            <label>GROUP PRODUCT</label>
                             <input type="text" class="form-control" required="">
                             <div class="invalid-feedback">
                                 Please fill
                             </div>
                         </div>
                         <div class="form-group">
-                            <label>Supplier</label>
+                            <label>SUPPLIER TYPE</label>
                             <input type="text" class="form-control" required="">
                             <div class="invalid-feedback">
                                 Please fill

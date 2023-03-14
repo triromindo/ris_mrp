@@ -42,9 +42,9 @@
                                     <table class="table table-striped table-main table-hover">
                                         <thead>
                                             <tr>
-                                                <th>ACC Code</th>
-                                                <th>Factory Code</th>
-                                                <th>Description</th>
+                                                <th>ACC CODE</th>
+                                                <th>FACTORY CODE</th>
+                                                <th>DESCRIPTION</th>
                                                 <th>STD COST</th>
                                                 <th>STOCK LEVEL</th>
                                             </tr>

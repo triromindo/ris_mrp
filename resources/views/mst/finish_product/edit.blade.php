@@ -1,11 +1,11 @@
-<div id="edit-finishProduct" class="bs-canvas bs-canvas-right position-fixed bg-white h-100">
+<div id="edit-finishProduct" class="bs-canvas bs-canvas-right position-fixed bg-white h-100 border-danger">
     <header class="bs-canvas-header p-4 bg-romindo overflow-auto">
         <button type="button" class="bs-canvas-close float-right close" aria-label="Close"><span aria-hidden="true"
                 class="text-white">&times;</span></button>
         <h4 class="d-inline-block text-white mb-0 float-left">
             Edit Data</h4>
     </header>
-    <div class="bs-canvas-content p-3">
+    <div class="bs-canvas-content p-3 border-danger">
         <form id="form-add-new" class="needs-validation" novalidate="" onsubmit="return false">
             <div class="card-body">
                 <div class="row mt-4">

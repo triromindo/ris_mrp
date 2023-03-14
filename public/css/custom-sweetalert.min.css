@@ -1,0 +1,13 @@
+.colored-toast.swal2-icon-success {
+    background-color: #6777ef !important;
+    color: #fff;
+}
+
+.swal2-container {
+    z-index: 1100 !important;
+}
+
+body.swal2-shown>[aria-hidden="true"] {
+    transition: 0.1s filter;
+    filter: blur(1px);
+}
