@@ -1,14 +1,14 @@
 <div class="main-sidebar sidebar-style-2">
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
-            <a href="index.html"><img src="{{ asset('img/logo/logo-2.webp') }}" width="180px"></a>
+            <a href="#"><img src="{{ asset('img/logo/logo-2.webp') }}" width="180px"></a>
         </div>
         <div class="sidebar-brand sidebar-brand-sm">
-            <a href="index.html"><img src="{{ asset('img/logo/logo-3.webp') }}" width="40px"></a>
+            <a href="#"><img src="{{ asset('img/logo/logo-3.webp') }}" width="40px"></a>
         </div>
         <ul class="sidebar-menu">
             @php
-                $mst = ['raw-material', 'finish-product', 'supplier', 'supplier-other', 'atk', 'kelompok-produk-raw-mat', 'std-man-h', 'rate', 'group-production', 'config-no-slip', 'jam-kerja-tersedia', 'month-end-period', 'rekomendasi-cut-stok'];
+                $mst = ['raw-material', 'finish-product', 'supplier', 'supplier-other', 'atk', 'kelompok-produk-raw-mat', 'std-man-hour', 'rate', 'group-production', 'config-no-slip', 'jam-kerja-tersedia', 'month-end-period', 'rekomendasi-cut-stok'];
             @endphp
             <li class="{{ Request::path() == '/' || Request::path() == 'dashboard' ? 'active' : '' }}">
                 <a class="nav-link" href="{{ url('dashboard') }}">
@@ -30,8 +30,8 @@
                             class="nav-link">Atk</a></li>
                     <li class="{{ Request::path() == 'kelompok-produk-raw-mat' ? 'active' : '' }}"><a
                             href="{{ url('kelompok-produk-raw-mat') }}" class="nav-link">Kelompok Prod Raw Mat</a></li>
-                    <li class="{{ Request::path() == 'std-man-h' ? 'active' : '' }}"><a href="{{ url('std-man-h') }}"
-                            class="nav-link">Std Man H</a></li>
+                    <li class="{{ Request::path() == 'std-man-hour' ? 'active' : '' }}"><a
+                            href="{{ url('std-man-hour') }}" class="nav-link">Std Man H</a></li>
                     <li class="{{ Request::path() == 'rate' ? 'active' : '' }}"><a href="{{ url('rate') }}"
                             class="nav-link">Rate</a></li>
                     <li class="{{ Request::path() == 'std-prod-cost' ? 'active' : '' }}"><a
